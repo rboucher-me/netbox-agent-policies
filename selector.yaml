@@ -15,5 +15,5 @@ lab_agents:
       enabled: false
       path: lab_agents/device.yaml 
     worker:
-      enabled: false
+      enabled: true
       path: lab_agents/worker.yaml
