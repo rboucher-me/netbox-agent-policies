@@ -1,6 +1,6 @@
 all_agents:
   selector:
-    location: lab
+    location: nope
   policies:
     default:
       path: default.yaml
