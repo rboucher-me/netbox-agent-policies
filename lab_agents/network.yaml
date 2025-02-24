@@ -1,5 +1,5 @@
     network_discovery:
-      policy_1:
+      policy_2:
         config:
           schedule: "* * * * *"
           timeout: 5
