@@ -1,4 +1,3 @@
-  policies:
     worker:
       demo_data:
         config:
