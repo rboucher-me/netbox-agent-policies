@@ -9,7 +9,7 @@ lab_agents:
     location: lab
   policies:
     network:
-      enabled: false
+      enabled: true
       path: lab_agents/network.yaml
     device:
       enabled: false
