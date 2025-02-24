@@ -1,5 +1,6 @@
 all_agents:
   selector:
+    location: lab
   policies:
     default:
       path: default.yaml

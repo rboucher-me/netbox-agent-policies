@@ -4,4 +4,4 @@
           schedule: "* * * * *"
           timeout: 5
         scope:
-          targets: [host.docker.internal]
+          targets: [netboxlabs.com]
