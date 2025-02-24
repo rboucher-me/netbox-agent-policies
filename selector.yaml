@@ -1,0 +1,18 @@
+all_agents:
+  selector:
+  policies:
+    default:
+      path: default.yaml
+lab_agents:
+  selector:
+    location: lab
+  policies:
+    network:
+      enabled: false
+      path: lab_agents/network.yaml
+    device:
+      enabled: false
+      path: lab_agents/device.yaml 
+    worker:
+      enabled: true
+      path: lab_agents/worker.yaml
