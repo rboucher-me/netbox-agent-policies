@@ -2,6 +2,6 @@
       demo_data:
         config:
           package: demo_data
-          schedule: "0 * * * *"
+          schedule: "* * * * *"
         scope:
           device_count: 5
