@@ -8,12 +8,12 @@ lab_agents:
   selector:
     location: lab
   policies:
-    network:
+    network_policy_1:
       enabled: true
       path: lab_agents/network.yaml
-    device:
+    device_policy_1:
       enabled: false
       path: lab_agents/device.yaml 
-    worker:
+    worker_policy_1:
       enabled: true
       path: lab_agents/worker.yaml
