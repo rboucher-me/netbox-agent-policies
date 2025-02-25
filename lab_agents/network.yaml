@@ -4,4 +4,4 @@
           schedule: "* * * * *"
           timeout: 5
         scope:
-          targets: [netboxlabs.com]
+          targets: [172.17.0.1-9]
