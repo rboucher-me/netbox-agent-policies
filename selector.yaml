@@ -1,6 +1,6 @@
 all_agents:
   selector:
-    location: nope
+    location: none
   policies:
     default:
       path: default.yaml
@@ -8,15 +8,15 @@ lab_agents:
   selector:
     location: lab
   policies:
-    network_policy_1:
+    network_1:
       enabled: true
       path: lab_agents/network.yaml
-    device_policy_1:
+    device_1:
       enabled: false
       path: lab_agents/device.yaml 
-    demo_data_worker_1:
+    demo_data:
       enabled: true
       path: lab_agents/worker.yaml
-    juniper_mist_worker_1:
-      enabled: true
+    juniper_mist:
+      enabled: false
       path: lab_agents/juniper_mist.yaml
