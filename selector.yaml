@@ -18,5 +18,5 @@ lab_agents:
       enabled: true
       path: lab_agents/worker.yaml
     juniper_mist_worker_1:
-      enabled: false
+      enabled: true
       path: lab_agents/juniper_mist.yaml
