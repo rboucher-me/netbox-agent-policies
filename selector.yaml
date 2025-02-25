@@ -16,7 +16,7 @@ lab_agents:
       path: lab_agents/device.yaml 
     demo_data:
       enabled: true
-      path: lab_agents/worker.yaml
+      path: lab_agents/demo_data.yaml
     juniper_mist:
       enabled: false
       path: lab_agents/juniper_mist.yaml
