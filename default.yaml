@@ -1,7 +1,7 @@
     network_discovery:
-      policy_1:
+      default:
         config:
           schedule: "* * * * *"
           timeout: 5
         scope:
-          targets: [172.17.0.1-9]
+          targets: [127.0.0.1]
