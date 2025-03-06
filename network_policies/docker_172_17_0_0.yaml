@@ -4,4 +4,4 @@
           schedule: "1 * * * *"
           timeout: 5
         scope:
-          targets: [172.17.0.1-9]
+          targets: [172.17.0.0/24]
