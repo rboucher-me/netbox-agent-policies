@@ -1,7 +1,7 @@
     network_discovery:
-      policy_2:
+      network_172.17.0.0:
         config:
           schedule: "1 * * * *"
           timeout: 5
         scope:
-          targets: [172.17.0.1-9,www.googl.com]
+          targets: [172.17.0.1-9]
