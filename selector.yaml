@@ -1,6 +1,5 @@
-all_agents:
+default:
   selector:
-    location: none
   policies:
     default:
       path: default.yaml
