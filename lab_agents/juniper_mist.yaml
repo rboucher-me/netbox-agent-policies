@@ -1,9 +1,0 @@
-    worker:
-      mist_policy:
-        config:
-          package: nbl_mist
-          schedule: "* * * * *"
-          mist_apitoken: "cv9NuDE97OSNTcHFK4a7T8EHr8xK4Ouc8cTr7I3tcif9BW4kmzKx6SCTFjFOQNiEUHYCUDbcRttj7ReDiLSeUhdkujurkiCB"
-          mist_org_id: "9777c1a0-6ef6-11e6-8bbf-02e208b2d34f"
-        scope:
-          site: all
