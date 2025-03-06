@@ -7,9 +7,9 @@ lab_agents:
   selector:
     location: lab
   policies:
-    network_1:
+    network_172.17.0.0:
       enabled: true
-      path: lab_agents/network.yaml
+      path: lab_agents/network_172.17.0.0.yaml
     device_1:
       enabled: false
       path: lab_agents/device.yaml 
