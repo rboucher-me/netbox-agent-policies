@@ -9,13 +9,13 @@ lab_agents:
   policies:
     network_172.17.0.0:
       enabled: true
-      path: lab_agents/network_172.17.0.0.yaml
+      path: network_policies/network_172.17.0.0.yaml
     device_1:
       enabled: false
-      path: lab_agents/device.yaml 
+      path: device_policies/device.yaml 
     demo_data:
       enabled: true
-      path: lab_agents/demo_data.yaml
+      path: integration_policies/demo_data.yaml
     juniper_mist:
       enabled: false
-      path: lab_agents/juniper_mist.yaml
+      path: integration_policies/juniper_mist.yaml
