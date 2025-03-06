@@ -1,5 +1,5 @@
     network_discovery:
-      network_172.17.0.0:
+      docker_172_17_0_0:
         config:
           schedule: "1 * * * *"
           timeout: 5
