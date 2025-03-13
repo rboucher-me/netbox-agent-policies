@@ -15,5 +15,5 @@ lab_agents:
     demo_data:
       path: integration_policies/demo_data.yaml
     juniper_mist:
-      enabled: false
+      enabled: true
       path: integration_policies/juniper_mist.yaml
