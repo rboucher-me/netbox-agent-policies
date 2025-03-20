@@ -3,5 +3,13 @@
         config:
           schedule: "1 * * * *"
           timeout: 5
+          defaults:
+            description: "Discovered by NetBox Discovery agent"
+            tags:
+              - network-discovery
         scope:
-          targets: [172.17.0.0/24]
+          targets: 
+            - 172.17.0.0/24
+          fast_mode: True
+          timing: 5
+          max_retries: 0
