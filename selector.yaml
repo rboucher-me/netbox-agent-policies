@@ -1,5 +1,6 @@
 default:
   selector:
+    key: value
   policies:
     default:
       path: default.yaml
@@ -13,6 +14,7 @@ lab_agents:
       enabled: false
       path: device_policies/device.yaml 
     demo_data:
+      enabled: false
       path: integration_policies/demo_data.yaml
     juniper_mist:
       enabled: false
