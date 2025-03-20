@@ -12,4 +12,3 @@
             - 172.17.0.0/24
           fast_mode: True
           timing: 5
-          max_retries: 0
