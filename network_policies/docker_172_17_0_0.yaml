@@ -1,7 +1,7 @@
     network_discovery:
       docker_172_17_0_0:
         config:
-          schedule: "1 * * * *"
+          schedule: "* * * * *"
           timeout: 5
           defaults:
             description: "Discovered by NetBox Discovery agent"
