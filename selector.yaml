@@ -1,6 +1,6 @@
-default:
+demo:
   selector:
-    key: value
+    color: blue
   policies:
     default:
       path: default.yaml
