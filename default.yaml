@@ -1,7 +1,6 @@
     network_discovery:
       default:
         config:
-          schedule: "0 * * * *"
-          timeout: 5
+          schedule: "* * * * *"
         scope:
           targets: [127.0.0.1]
