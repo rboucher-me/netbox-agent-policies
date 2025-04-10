@@ -3,4 +3,4 @@
         config:
           schedule: "* * * * *"
         scope:
-          targets: [127.0.0.1]
+          targets: [127.0.0.1,www.google.com]
