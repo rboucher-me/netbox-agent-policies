@@ -11,9 +11,11 @@ webinar_2:
   policies:
     device_discovery:
       path: device_discovery.yaml
+      enabled: false
 webinar_3:
   selector:
     agent: none
   policies:
     worker_discovery:
       path: worker_discovery.yaml
+      enabled: false
