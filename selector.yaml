@@ -4,6 +4,7 @@ webinar_1:
   policies:
     network_discovery:
       path: network_discovery.yaml
+      enabled: true
 webinar_2:
   selector:
     agent: none
