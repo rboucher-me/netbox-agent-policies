@@ -1,9 +1,9 @@
-demo:
+webinar_1:
   selector:
-    color: blue
+    agent: demo-agent
   policies:
-    default:
-      path: default.yaml
+    network_discovery:
+      path: network_discovery.yaml
 lab_agents:
   selector:
     location: lab
