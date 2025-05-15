@@ -1,3 +1,9 @@
+autocon_workshop:
+  selector:
+    autocon: 3
+  policies:
+    default:
+      path: default.yaml
 webinar_1:
   selector:
     agent: demo-agent
