@@ -6,7 +6,7 @@ otlp_pipeline:
       path: opentelemetry_policies/otlp_pipeline.yaml
 basic_network_discovery_example:
   selector:
-    agent: orb-demo-agent
+    agent_name: orb-demo-agent
   policies:
     network_discovery:
       path: network_policies/localhost.yaml
