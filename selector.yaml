@@ -1,8 +1,8 @@
 otlp_pipeline:
   selector:
-    agent_name: orb-demo-agent
+    enable_otlp_pipeline: true
   policies:
-    default:
+    otlp_pipeline:
       path: opentelemetry_policies/otlp_pipeline.yaml
 webinar_1:
   selector:
