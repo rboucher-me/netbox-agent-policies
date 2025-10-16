@@ -4,12 +4,12 @@ otlp_pipeline:
   policies:
     otlp_pipeline:
       path: opentelemetry_policies/otlp_pipeline.yaml
-webinar_1:
+basic_network_discovery_example:
   selector:
-    agent: demo-agent
+    agent: orb-demo-agent
   policies:
     network_discovery:
-      path: network_discovery.yaml
+      path: network_policies/localhost.yaml
       enabled: true
 webinar_2:
   selector:
