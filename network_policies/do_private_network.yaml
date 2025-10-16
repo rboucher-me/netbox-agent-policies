@@ -7,6 +7,7 @@
             description: "Discovered by orb/network_discovery"
             tags:
               - orb/network_discovery
+              - digital_ocean_private_network
         scope:
           targets: 
             - 10.116.0.0/24
