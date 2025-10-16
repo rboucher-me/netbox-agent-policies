@@ -1,0 +1,13 @@
+    network_discovery:
+      demo_policy:
+        config:
+          timeout: 5
+          defaults:
+            description: "Discovered by orb/network_discovery"
+            tags:
+              - orb/network_discovery
+              - demo_policy
+        scope:
+          targets: 
+            - 10.116.0.0/24
+          os_detection: True
