@@ -17,6 +17,14 @@ digital_ocean_private_network:
   selector:
     agent_name: orb-demo-agent
   policies:
-    worker_discovery:
+    network_discovery:
       path: network_policies/do_private_network.yaml
+      enabled: true
+
+k8s_network:
+  selector:
+    agent_name: orb-demo-agent
+  policies:
+    network_discovery:
+      path: network_policies/k8s_network.yaml
       enabled: true
