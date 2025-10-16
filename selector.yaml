@@ -5,13 +5,13 @@ otlp_pipeline:
     otlp_pipeline:
       path: opentelemetry_policies/otlp_pipeline.yaml
 
-basic_network_discovery_example:
+localhost_example:
   selector:
     agent_name: orb-demo-agent
   policies:
     network_discovery:
       path: network_policies/localhost.yaml
-      enabled: true
+      enabled: false
 
 digital_ocean_private_network:
   selector:
@@ -27,4 +27,4 @@ k8s_network:
   policies:
     network_discovery:
       path: network_policies/k8s_network.yaml
-      enabled: true
+      enabled: false
