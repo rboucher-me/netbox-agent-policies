@@ -1,0 +1,41 @@
+    opentelemetry_infinity:
+      otlp_pipeline:
+        extensions:
+          basicauth:
+            client_auth:
+              username: ${env:GRAFANA_USERNAME}
+              password: ${env:GRAFANA_API_TOKEN}
+        receivers:
+          otlp:
+            protocols:
+              grpc: 
+                endpoint: 0.0.0.0:4319
+              http: 
+                endpoint: 0.0.0.0:4320
+        processors:
+          batch:
+            send_batch_size: 1000
+            send_batch_max_size: 2000
+        exporters:
+          prometheusremotewrite:
+            endpoint: ${env:PROMETHEUS_TARGET}
+            auth:
+              authenticator: basicauth
+            resource_to_telemetry_conversion:
+              enabled: true
+          otlphttp/loki:
+            endpoint: ${env:LOKI_TARGET}
+            auth:
+              authenticator: basicauth
+        service:
+          extensions:
+            - basicauth
+          pipelines:
+            metrics:
+              receivers: [otlp]
+              processors: [batch]
+              exporters: [prometheusremotewrite]
+            logs:
+              receivers: [otlp]
+              processors: [batch]
+              exporters: [otlphttp/loki]      
