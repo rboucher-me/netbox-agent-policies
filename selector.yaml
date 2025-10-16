@@ -1,9 +1,9 @@
-autocon_workshop:
+otlp_pipeline:
   selector:
-    autocon: 3
+    agent_name: orb-demo-agent
   policies:
     default:
-      path: default.yaml
+      path: opentelemetry_policies/otlp_pipeline.yaml
 webinar_1:
   selector:
     agent: demo-agent
