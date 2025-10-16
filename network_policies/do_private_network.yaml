@@ -9,6 +9,6 @@
               - orb/network_discovery
         scope:
           targets: 
-            - 10.108.0.0/24
+            - 10.116.0.0/24
           fast_mode: True
           timing: 5
