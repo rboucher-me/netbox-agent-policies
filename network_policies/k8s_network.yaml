@@ -1,0 +1,14 @@
+    network_discovery:
+      k8s_network:
+        config:
+          schedule: "* * * * *"
+          timeout: 5
+          defaults:
+            description: "Discovered by orb/network_discovery"
+            tags:
+              - orb/network_discovery
+        scope:
+          targets: 
+            - 10.244.20.0/24
+          fast_mode: True
+          timing: 5
