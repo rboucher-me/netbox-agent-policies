@@ -1,5 +1,5 @@
     network_discovery:
-      default:
+      localhost_discovery:
         config:
         scope:
           targets: [127.0.0.1]
