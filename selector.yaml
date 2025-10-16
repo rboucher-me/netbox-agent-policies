@@ -13,14 +13,6 @@ basic_network_discovery_example:
       path: network_policies/localhost.yaml
       enabled: true
 
-docker_network_discovery_example:
-  selector:
-    agent_name: orb-demo-agent
-  policies:
-    device_discovery:
-      path: network_policies/docker_172_17_0_0.yaml
-      enabled: true
-
 digital_ocean_private_network:
   selector:
     agent_name: orb-demo-agent
