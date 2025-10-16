@@ -16,8 +16,8 @@ webinar_2:
     agent: none
   policies:
     device_discovery:
-      path: device_discovery.yaml
-      enabled: false
+      path: network_policies/docker_172_17_0_0.yaml
+      enabled: true
 webinar_3:
   selector:
     agent: none
