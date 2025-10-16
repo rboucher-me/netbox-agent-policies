@@ -11,9 +11,9 @@ basic_network_discovery_example:
     network_discovery:
       path: network_policies/localhost.yaml
       enabled: true
-webinar_2:
+network_discovery_example:
   selector:
-    agent: none
+    agent_name: orb-demo-agent
   policies:
     device_discovery:
       path: network_policies/docker_172_17_0_0.yaml
