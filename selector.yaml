@@ -4,6 +4,7 @@ otlp_pipeline:
   policies:
     otlp_pipeline:
       path: opentelemetry_policies/otlp_pipeline.yaml
+
 basic_network_discovery_example:
   selector:
     agent_name: orb-demo-agent
@@ -11,17 +12,19 @@ basic_network_discovery_example:
     network_discovery:
       path: network_policies/localhost.yaml
       enabled: true
-network_discovery_example:
+
+docker_network_discovery_example:
   selector:
     agent_name: orb-demo-agent
   policies:
     device_discovery:
       path: network_policies/docker_172_17_0_0.yaml
       enabled: true
-webinar_3:
+
+digital_ocean_private_network:
   selector:
-    agent: none
+    agent_name: orb-demo-agent
   policies:
     worker_discovery:
-      path: worker_discovery.yaml
-      enabled: false
+      path: network_policies/do_private_network.yaml
+      enabled: true
