@@ -11,5 +11,14 @@
         scope:
           targets: 
             - 10.116.0.0/24
-          fast_mode: true
-          #ports: [22,80,161,443,830]
+          fast_mode: false
+          timing: 3
+          # ports: [22,80,161,443,830]
+          exclude_ports: [2000-10000]
+          ping_scan: false
+          # top_ports: 50
+          max_retries: 3
+          # scan_types: [udp,connect]
+          # dns_servers: [8.8.8.8]
+          os_detection: false
+          icmp_echo: false
