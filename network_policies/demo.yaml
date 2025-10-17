@@ -11,4 +11,5 @@
         scope:
           targets: 
             - 10.116.0.0/24
-          ports: [22,80,161,443,830]
+          fast_mode: true
+          #ports: [22,80,161,443,830]
