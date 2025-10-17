@@ -7,7 +7,7 @@ otlp_pipeline:
 
 localhost_example:
   selector:
-    agent_name: orb-demo-agent
+    agent_name: none
   policies:
     network_discovery:
       path: network_policies/localhost.yaml
@@ -15,7 +15,7 @@ localhost_example:
 
 digital_ocean_private_network:
   selector:
-    agent_name: orb-demo-agent
+    agent_name: none
   policies:
     network_discovery:
       path: network_policies/do_private_network.yaml
