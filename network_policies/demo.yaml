@@ -3,6 +3,7 @@
         config:
           timeout: 5
           defaults:
+            vrf: A
             description: "Discovered by orb/network_discovery"
             tags:
               - orb/network_discovery
@@ -10,4 +11,4 @@
         scope:
           targets: 
             - 10.116.0.0/24
-          os_detection: True
+          ports: [22,80,161,443,830]
